@@ -1,0 +1,143 @@
+/*320px*/
+.page {    
+    width: 320px;
+    margin: auto;   
+}
+.paragraph {
+    font-size: 18px;
+}
+.link {
+    font-size: 18px;
+}
+.fashion__header,
+.photography__header,
+.design__header,
+.cooking__header,
+.woodworking__header,
+.craft__header {
+    font-size: 20px;
+}
+.header__logo {
+    width: 100%;
+    height: auto;
+}
+.about__header {
+    text-align: center;
+    font-size: 20px;
+}
+.about__description {
+    text-align: justify;
+    width: 300px;
+    padding-left: 10px;
+    padding: 10px;
+}
+.content__function {
+    display: flex;
+    flex-direction: column;  
+}
+.function__letter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+.function__letter-text {
+    width: 280px;
+    text-align: justify;
+}
+.function__letter-image {
+    width: 220px;
+    height: auto;
+}
+.function__cloud {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.function__cloud-text {
+    width: 280px;
+    text-align: justify;
+}
+.function__cloud-image {
+    width: 220px;
+    height: auto;
+}
+.content__features {
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.feature__document {
+    padding-right: 10px;
+}
+.feature__mobile {
+    padding-left: 10px;
+}
+.feature__document-text,
+.feature__mobile-text,
+.feature__sheet-text {
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.intrest {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    
+}
+.intrest__row-1,
+.intrest__row-2 {
+    display: block;    
+}
+
+.intrest__fashion,
+.intrest__photography,
+.intrest__design,
+.intrest__cooking,
+.intrest__woodworking,
+.intrest__craft {
+    padding-bottom: 15px;    
+    width: 150px;
+}
+.fashion__text,
+.photography__text,
+.design__text,
+.cooking__text,
+.woodworking__text,
+.craft__text {
+    width: 150px;
+    font-size: 12px;
+}
+.fashion__link,
+.photography__link,
+.design__link,
+.cooking__link,
+.woodworking__link,
+.craft__link {
+    font-size: 13px;
+}
+.author {
+    width: 310px;    
+    margin: auto;    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+.author__about {
+    width: 280px;
+}
+.footer {
+    width: 310px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.footer__text {
+    width: 280px;
+}

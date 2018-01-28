@@ -1,0 +1,107 @@
+/*480px-768px */
+.page {    
+    width: 480px;
+    margin: auto;
+}
+.paragraph {
+    font-size: 18px;
+}
+.link {
+    font-size: 18px;
+}
+.fashion__header,
+.photography__header,
+.design__header,
+.cooking__header,
+.woodworking__header,
+.craft__header {
+    font-size: 20px;
+}
+.header__logo {
+    width: 100%;
+    height: auto;
+}
+.about__header {
+    font-size: 20px;
+}
+.content__function {
+    display: flex;
+    flex-direction: column;  
+}
+.function__letter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.function__letter-text {
+    width: 230px;
+}
+.function__letter-image {
+    width: 230px;
+    height: auto;
+}
+.function__cloud {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.function__cloud-text {
+    width: 230px;
+}
+.function__cloud-image {
+    width: 230px;
+    height: auto;
+}
+.content__features {
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+.feature__document {
+    padding-right: 10px;
+}
+.feature__mobile {
+    padding-left: 10px;
+}
+.feature__document-text,
+.feature__mobile-text,
+.feature__sheet-text {
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.intrest {
+    margin: auto;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    
+}
+.intrest__row-1,
+.intrest__row-2 {
+    display: block;    
+}
+
+.intrest__fashion,
+.intrest__photography,
+.intrest__design,
+.intrest__cooking,
+.intrest__woodworking,
+.intrest__craft {
+    padding-bottom: 15px;
+}
+.author {
+    width: 430px;    
+    margin: auto;    
+}
+.author__about {
+    padding-left: 10px;
+}
+
+.footer {
+    width: 430px;
+    margin: auto;
+}

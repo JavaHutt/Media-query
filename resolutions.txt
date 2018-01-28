@@ -1,0 +1,37 @@
+@media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .page {
+        flex-direction: column;
+      }
+      .menu__list {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+      }
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+      .menu__list {
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+        flex-wrap: wrap;
+      }
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+      .menu__list {
+        height: 200px;
+      }
+    }

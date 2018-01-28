@@ -1,0 +1,271 @@
+.page {
+    margin: auto;
+    width: 600px;
+    background-color: #ffffff;
+}
+.paragraph {  
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;    
+}
+.link {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;   
+}
+.about__header {
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;    
+}
+.about__description {
+    padding-left: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;    
+    font-size: 15px; 
+    line-height: 110%;   
+    color: #333333;
+}
+.content__function {    
+    display: flex;
+    justify-content: space-between; /*DOESNT WORK, HAD TO USE PADDING-LEFT*/
+    padding-top: 20px;
+    padding-left: 10px;       
+}
+.function__letter-text {
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;
+    color: #333333;
+}
+.function__cloud-text {
+    padding-top: 5px;
+    padding-right: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;
+    color: #333333;
+}
+.content__features {    
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #333333;
+}
+.feature__document-text {
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;
+}
+.feature__mobile-text {
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;
+}
+.feature__sheet-text {
+    width: 200px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;
+}
+.intrest__row-1 {
+    display: flex;
+    padding-bottom: 30px;      
+}
+.intrest__fashion {
+    width: 200px;
+    text-align: center;
+   
+}
+.fashion__header {
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+.fashion__text {    
+    width: 180px;   
+    margin: auto;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;      
+}
+.fashion__link {
+    color: #ee6a56;
+}
+.fashion__link:visited {
+    color: #ee6a56;
+}
+
+.intrest__photography {
+    width: 200px;
+    text-align: center;
+}
+.photography__header {
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+.photography__text {
+    width: 180px;   
+    margin: auto;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;     
+}
+.photography__link {
+    color: #ee6a56;
+}
+.photography__link:visited {
+    color: #ee6a56;
+}
+.intrest__design {
+    width: 200px;
+    text-align: center;
+}
+.design__header {
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+.design__text {
+    width: 180px;   
+    margin: auto;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;     
+}
+.design__link {
+    color: #ee6a56;
+}
+.design__link:visited {
+    color: #ee6a56;
+}
+.intrest__row-2 {
+    display: flex;    
+    padding-bottom: 30px;
+}
+.intrest__cooking {
+    width: 200px;
+    text-align: center;    
+}
+.cooking__header {
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+.cooking__text {
+    width: 180px;   
+    margin: auto;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;     
+}
+.cooking__link {
+    color: #ee6a56;
+}
+.cooking__link:visited {
+    color: #ee6a56;
+}
+
+.intrest__woodworking {
+    width: 200px;
+    text-align: center;
+}
+.woodworking__header {
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+.woodworking__text {
+    width: 180px;   
+    margin: auto;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;     
+}
+.woodworking__link {
+    color: #ee6a56;
+}
+.woodworking__link:visited {
+    color: #ee6a56;
+}
+.intrest__craft {
+    width: 200px;
+    text-align: center;
+}
+.craft__header {
+    padding-bottom: 5px;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+.craft__text {
+    width: 180px;   
+    margin: auto;
+    padding-top: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 110%;    
+    color: #333333;     
+}
+.craft__link {
+    color: #ee6a56;
+}
+.craft__link:visited {
+    color: #ee6a56;
+}
+.author {
+    width: 580px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.author__about {
+    width: 470px;
+    text-align: justify;
+}
+.author__about-link {
+    color: #85ab70;
+}
+.footer {
+    width: 580px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__text {
+    width: 470px;
+    text-align: center;
+}
+.footer__text-link {
+    color: #70bbd9;
+}
